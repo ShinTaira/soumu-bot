@@ -5,7 +5,6 @@ import json
 # ==========================================
 # 設定エリア
 # ==========================================
-# ★GASのURL (変更なし)
 GAS_API_URL = "https://script.google.com/macros/s/AKfycbysmoIjjc4ka6l5T4zeaWZOc4Dd-hIwC-p7eifHBlWWeh3JXF9hwY6BmriOLqUxWwRnsQ/exec"
 BOT_NAME = "総務サポートBot"
 THEME_COLOR = "#003366"
@@ -14,8 +13,7 @@ THEME_COLOR = "#003366"
 # 関数定義
 # ==========================================
 
-# キャッシュ無効化
-# @st.cache_data
+@st.cache_data
 def fetch_faq_data():
     try:
         response = requests.get(GAS_API_URL)
