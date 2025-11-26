@@ -34,7 +34,7 @@ def send_log_to_gas(message, reply, user_name, log_type="🚨エスカレーシ�
             "type": log_type,
             "userName": user_name
         }
-        requests.post(GAS_API_URL, json=payload)z
+        requests.post(GAS_API_URL, json=payload)
     except:
         pass
 
