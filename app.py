@@ -100,7 +100,7 @@ if not st.session_state.user_name:
     st.markdown(f'<div class="main-header"><h1>🤖 {BOT_NAME}</h1></div>', unsafe_allow_html=True)
     
     st.info("利用を開始するには、フルネームを入力してください。")
-    name_input = st.text_input("お名前", placeholder="例: 平良 慎")
+    name_input = st.text_input("お名前", placeholder="例: スピン太郎")
     
     if st.button("利用を開始する", type="primary"):
         if name_input:
