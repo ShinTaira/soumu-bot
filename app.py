@@ -6,7 +6,7 @@ import json
 # 設定エリア
 # ==========================================
 GAS_API_URL = "https://script.google.com/macros/s/AKfycbysmoIjjc4ka6l5T4zeaWZOc4Dd-hIwC-p7eifHBlWWeh3JXF9hwY6BmriOLqUxWwRnsQ/exec"
-BOT_NAME = "総務サポートBot"
+BOT_NAME = "総務Bot"
 THEME_COLOR = "#003366"
 
 # ==========================================
